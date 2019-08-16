@@ -9,6 +9,8 @@
     "react-dom": "^16.9.0",
     "react-p5-wrapper": "^2.0.0",
     "react-scripts": "3.1.1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +32,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage" : "https://geenho.github.io/bubbles/"
 }
